@@ -22,8 +22,6 @@ jobs:
         with:
           # choose node.js version to use
           node-version: 18
-          # cache deps for pnpm
-          cache: yarn
 
       - name: Setup yarn
         uses: borales/actions-yarn@v4
