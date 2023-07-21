@@ -30,6 +30,10 @@ jobs:
         with:
           cmd: install # will run `yarn install`
 
+      # Install Yarn dependencies
+      - name: Install deps
+        run: yarn install
+
       # run build script
       - name: Build VuePress site
         run: yarn docs:build
