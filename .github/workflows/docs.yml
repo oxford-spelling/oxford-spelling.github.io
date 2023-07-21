@@ -28,7 +28,7 @@ jobs:
       - name: Setup yarn
         uses: borales/actions-yarn@v4
         with:
-          cmd: install # will run `yarn install` command
+          cmd: yarn install # will run `yarn install` command
 
       # run build script
       - name: Build VuePress site
