@@ -1,4 +1,4 @@
-import { defineUserConfig } from "vuepress";
+import { defineUserConfig, defaultTheme } from "vuepress";
 
 export default defineUserConfig({
     lang: "en-GB-oxendict",
@@ -9,5 +9,14 @@ export default defineUserConfig({
         "!**/README.md",
         "!.vuepress/",
         "!node_modules/",
-    ]
+    ],
+    theme: defaultTheme({
+        // Default theme config
+        navbar: [
+            {
+                text: "Home",
+                link: "/"
+            }
+        ]
+    })
 });

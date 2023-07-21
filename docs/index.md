@@ -12,3 +12,6 @@ Oxford spelling in international usage.
 ## What is Oxford spelling?
 Oxford spelling is a subset of British English that enforces -ize over -ise on
 etymological grounds.
+
+## Add test
+Just to see if it is working correctly.
